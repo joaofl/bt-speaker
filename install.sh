@@ -31,6 +31,7 @@ echo "done."
 
 # Prepare default config
 mkdir -p /etc/bt_speaker/hooks
+mkdir -p /etc/bt_speaker/.config
 cp -n /opt/bt-speaker/config.ini.default /etc/bt_speaker/config.ini
 cp -n /opt/bt-speaker/hooks.default/connect /etc/bt_speaker/hooks/connect
 cp -n /opt/bt-speaker/hooks.default/disconnect /etc/bt_speaker/hooks/disconnect
