@@ -6,12 +6,12 @@ startup_command = /etc/bt_speaker/hooks/startup
 track_command = /etc/bt_speaker/hooks/track
 
 [bluez]
-device_path = /org/bluez/hci0
+device_path = /org/bluez/hci1
 discoverable = yes
 pin_code = 0000
 
 [alsa]
 enabled = yes
-mixer = PCM
+mixer = FM
 id = 0
 cardindex = 0
